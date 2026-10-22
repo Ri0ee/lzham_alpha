@@ -21,6 +21,19 @@ namespace lzham
       typedef signed __int64        int64;
    #endif
 
+   #undef UINT8_MAX
+   #undef UINT16_MAX
+   #undef UINT32_MAX
+   #undef UINT64_MAX
+   #undef INT8_MIN
+   #undef INT8_MAX
+   #undef INT16_MIN
+   #undef INT16_MAX
+   #undef INT32_MIN
+   #undef INT32_MAX
+   #undef INT64_MIN
+   #undef INT64_MAX
+
    const uint8  UINT8_MIN  = 0;
    const uint8  UINT8_MAX  = 0xFFU;
    const uint16 UINT16_MIN = 0;
